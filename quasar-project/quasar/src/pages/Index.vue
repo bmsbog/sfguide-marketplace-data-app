@@ -104,7 +104,7 @@ export default {
       //Here we GET the json data passed through the lambda function from the embeded SQL query from snowflake view through our API endpoint
       return this.$axios
         .get(
-          "https://rkpnrd2qf1.execute-api.us-west-1.amazonaws.com/default/snowdemo?geo=" +
+          "https://h3qb8aotj3.execute-api.us-east-2.amazonaws.com/default/VHOL" +
             this.selectedCountry +
             "&startYear=" +
             this.selectedPeriod.min +
